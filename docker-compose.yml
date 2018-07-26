@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  consoleapp7:
+    image: ${DOCKER_REGISTRY}consoleapp7
+    build:
+      context: .\ConsoleApp7
+      dockerfile: Dockerfile
